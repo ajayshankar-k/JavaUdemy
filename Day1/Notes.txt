@@ -1,0 +1,90 @@
+Section 1 -3
+
+Topic:
+
+1) Jshell
+2) printing Hello World!
+3) Variables and Datatypes
+4) overflow and underflow
+5) typecasting
+
+---------------------- Jshell ---------------------------
+
+-> A mini java IDE run on command prompt
+-> To open Jshell, Type jshell in command prompt and click enter.
+-> If jshell stuck use "/exit" command
+
+---------------------- Hello World ---------------------------
+
+-> To print hello world:
+
+eg: System.out.println("Hello World!");
+
+-> ";" must at the end of statements
+
+--------------------- Variables and Datatypes -------------------------------
+
+Types of datatypes:
+
+1) byte,short,int,long
+    -> byte stores 1 byte : -128 to 127
+    -> short stores 2 byte : -32,768 to 32,767
+    -> int stores 4 byte : -2,147,483,648 to 2,147,483,647
+    -> long stores 5 byte : -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+    eg: long number = 50000L;
+
+2) char
+    -> Stores a single character/letter or ASCII values , eg : 'A' -> must be in single quotes
+    eg: char a = 'A';
+
+3) boolean
+    -> true or false
+4) String
+    -> Words , eg: "Hello World" -> must be in double quotes
+    -> String is not a datatype its a in built java class
+    eg: String name = "Ajay";
+
+5) float
+    -> Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+    eg: float number = 10.5F;
+
+6) double
+    -> Stores fractional numbers. Sufficient for storing 15 decimal digits
+    eg: double number = 10.5D; -> by default decimal numbers are double in java
+
+-> most used data types in java are => int,double and boolean
+
+---------------------------------------------------------------------------
+
+Variables:
+
+-> Always mention data types while assigning a variable or storing a data in a variable
+
+eg : int myFirstNumber = 5;
+
+-> Here "int" is the data type , ";" must
+
+-> To redeclare don't need to mention the datatype
+
+eg: myFirstNumber = 10;
+
+-> To declare long put a "L" at end of the number
+
+eg: long longValue = 1001L;
+
+------------------------------ overflow and underflow ---------------------------------------------
+
+-> if you add a number or subtract a number from the max or min value of a datatype
+-> it go overflow by changing it to min value or underflow by changing it to max value.
+
+-------------------------------- Typecasting ---------------------------------
+
+-> Type casting is two type
+    1) Manual
+    2) Auto
+
+Manual :
+
+-> changing a datatype one to another datatype manually is manual typecasting
+-> Datatype changes from one to another datatype automatically is auto typecasting
+
