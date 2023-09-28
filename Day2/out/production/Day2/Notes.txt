@@ -1,0 +1,90 @@
+Section 4 - Section 5
+
+Topics:
+
+1) if - else statement
+2) Ternary operator
+3) Methods (Functions)
+
+
+----------------------------- if-else statement ---------------------------
+
+eg 1:--------------------------------
+
+int x = 10;
+if(x>5){
+    System.out.println("yes");
+}else{
+    //code block
+}
+
+--------------------------------
+
+eg 2 with "&&" AND operator :
+
+int x = 10;
+if(x>5 && x>2){
+    System.out.println("yes");
+}else{
+    //code block
+}
+
+---------------------------------------
+
+eg 3 with "||" OR operator:
+
+int x = 10;
+if(x>5 || x>2){
+    System.out.println("yes");
+}else{
+    //code block
+}
+
+---------------------------- Ternary operator -------------------------------
+
+-> Ternary operators are single line logical operators
+
+syntax : operand1 ? operand2 : operand3
+
+-> here "operand1" is the condition, "operand2" executes when condition is true,
+    "operand3" executes when the condition is false.
+
+eg:--------------------------------
+
+int x = 10;
+String deci = x>5? "yes":"no";
+System.out.println(deci);
+
+------------------------------------ Methods -----------------------------------------------
+
+-> method is nothing but functions inside class and variables are called properties
+
+syntax:------------------------------
+
+public static void methodName(){
+    // code block
+}
+
+-> here "public" is access modifier
+-> static is used to share the same variables and methods within a class
+    with can be accessed without creating an instance of a class
+-> void is used if the method doesn't return anything,
+    if a method returning something method should be like this.
+
+eg:-------------------------
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println(method(5,6));
+    }
+    public static int method(int x, int y){
+        return x+y;
+    }
+} // o/p: 11
+
+-> here "int" is given instead of void because it returns an integer hence the datatype should be given
+    according to what it returns
+
+-> Note: You cant create a method inside a method
+
+------------------------------------------------------------------------------------------------------------------
