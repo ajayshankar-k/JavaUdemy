@@ -1,0 +1,88 @@
+Section 5 - Section 6
+
+Topics:
+
+1) Method overloading
+2) Switch
+3) loops - for loop , while and do while
+
+
+
+------------------------- Method overloading --------------------------
+
+-> method overloading is when a class has multiple methods with same name
+    but has different parameters
+-> order of the parameter also cause method overload, this is called unique method signature
+
+eg:----------------------------------
+
+public static void doSomething(int x,float y){
+    // code block
+}
+public static void doSomething(float y,int x){
+    // code block
+}
+
+------------------------------ Switch statement ---------------------------
+
+syntax:------------------------
+
+switch(value){
+    case x:
+        // code block;
+        break;
+    case y:
+        // code block;
+        break ;
+    default:
+        // code block;
+}
+
+enhanced switch statement syntax:-----------------------
+
+switch(value){
+    case x -> //code;
+    case y -> //code;
+    case a,b,c ->{
+    // code block;
+    }
+    default -> // code block;
+}
+
+-> enhaced switch does not require "break"
+
+-------------------------------- loops --------------------------------------
+
+for loop syntax: --------------------------------
+
+for (int i=0;i<10;i++){
+    System.out.println(i)
+}
+
+while loop syntax: --------------------------
+
+int x = 0;
+
+while(x<10){
+    System.out.println(x);
+    x++;
+}
+
+do while loop syntax: -------------------------
+
+int x=0;
+
+do{
+    System.out.println("x is still not 10")
+}while(x<10){
+     System.out.println(x);
+     x++;
+}
+
+// in do while loop the "do" executes atleast once even "while" is not executed
+
+Note : in loops there are three breakpoints "break,continue," where break stops the loop continue skips the iteration and
+    starts new iteration
+
+-----------------------------------------------------------------------------------------------------------
+
