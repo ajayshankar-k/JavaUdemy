@@ -1,0 +1,64 @@
+Section 6
+
+Topics:
+
+1) local and global variables
+2) Class
+3) Parsing values (converting string to integer -> "10" to 10)
+4) Getting Input data from console
+5) Exception Handling Starting
+
+-------------------------------- class -----------------------------------------------------------------
+
+to create a object for a class :
+
+-> ClassName obj = new ClassName();
+
+-------------------------------- Converting string to integer -------------------------------------------------
+
+syntax in Java:-------------
+
+String x = "100";
+int y = Interger.parseInt(x);
+
+syntax to convert into double in java:------------
+
+String x = "22.5";
+Double y = Double.parseDouble(x);
+
+----------------------------------------
+
+// in python => y = int(x)
+
+------------------------------------------- Getting Input data from console -------------------------------------------------------------------
+
+To get input in console:
+
+Step 1 :
+
+import "Scanner" from -> import java.util.*;
+
+Step 2 :
+
+create an object -> Scanner objectname = new Scanner(System.in);
+
+Step 3 :
+
+To store integers ->  int num  = objectname.nextInt();
+To store string -> String name = objectname.nextLine();
+To Store a single character -> char x = scan.next().charAt(0); -> here the "0" at charAt() is index number
+
+------------------------------------------ Exception Handling Starting ----------------------------------------------
+
+Syntax :
+
+try{
+    // statement might get error
+} catch(ExceptionName e){
+    // code to handle exception
+}
+
+note -> here "e" is a varible it could be any name
+
+
+
