@@ -1,0 +1,105 @@
+Section 7 - OOPS part 1
+
+Topics :
+1) Package
+2) class
+3) Encapsulation - Access Modifiers
+4) Fields - default values
+5) creating object
+6) Getter and setters
+7) "this" keyword
+----------------------------------------- Package -------------------------------------------------
+
+-> package one; // package is nothing but folders and we need to import like this to use a class in the package.
+
+-> to import a package => package packageName;
+
+----------------------------------------- class ---------------------------------------------------
+
+-> class is a template or blueprint for creating objects
+
+-> if a field is not static its class an instance field and each object may have different value
+    stored for this field
+
+-> A static method cant be dependent one any one objects state so it cant reference any instance member
+
+-> In other words any method that operates on instance fields needs to be non-static
+
+----------------------------------------- Encapsulation - Access modifiers -------------------------------------------------
+
+Encapsulation is restricting access or wrapping a code using access modifiers from public access
+
+There are three types of access modifiers:
+
+1) public
+2) Protected
+3) Private
+
+public -> can be accessed in any class
+
+protected -> can be accessed in only the declared class and sub classes (Inherited classes)
+
+private -> can only be accessed in the declared class
+
+---------------------------------------------- Fields - default values -----------------------------------------------------------------
+
+-> Declaring a empty variable or every varible inside a class is called fields
+
+eg syntax for creating default fields:
+
+public class Car{
+    private int doors;
+    private int wheels;
+    private String name;
+}
+
+Note : it is important to create default fields if you dont know the value,
+        by default java creates default field but sometimes it leads to error
+
+Default values in java are :
+
+float - false
+byte,short,int,long,char - 0
+double,float - 0.0
+String - null
+
+Note : String is not a primitive data type in java its a object.
+
+----------------------------------------------- Creating objects ----------------------------------------------------------------
+
+-> an objects is nothing but instance for a class
+
+syntax to create a object: ----------------------------------
+
+-> ClassName variableName = new ClassName();
+
+syntax to call a method using object: ---------------------------
+
+-> variableName.methodName();
+
+-------------------------------------------- Getter and Setters -------------------------------------------------
+
+-> When a class fields is private
+-> A Getter is a method on a class , that retrives the value of a private field and returns it
+-> A Setter is a method on a class , that sets the value of the private field
+
+-> the purpose of these methods to control and protect , access to the private fields.
+
+-------------------------------------------- "this" keyword -------------------------------
+
+eg :
+
+public class Car{
+    private String name;
+
+    public void setName(String name){
+        //name = name; -> this is wrong
+        this.name = name; // if the "this" keyword is not used, we are assigning the attribute to itself it leads to error
+    }
+}
+
+-> now using "this" we assign the attribuet to the fields that declared in the class
+
+------------------------------------------------------------------------------------------------------
+
+
