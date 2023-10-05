@@ -1,0 +1,55 @@
+Section 7 - OOPS part 1
+
+Topics :
+
+1) Constructor chaining
+2) Static vs Instances variables
+3) Static vs Instances Methods
+4) POJO (toString() method)
+5) Inheritance
+6) substring method -> used to slice string eg in substring file
+
+-------------------------- Constructor chaining ---------------------------
+
+->constructor chaining is one constructor calls another overloaded construtor
+
+-> you can call a constructor only from another constructor.
+
+-> must use "this()" keyword to execute another constructor.
+
+-> eg in ConstructorChaining package
+
+----------------------------------- Static vs Instance variable --------------------------------
+
+-> static variable does not store the values for different objects
+
+-> Instance variables stores the values for different objects
+
+--------------------------------- Static vs Instance Methods --------------------------------------------------------
+
+-> static methods are used to call a function without creating a object for a class
+
+--------------------------------  POJO (toString() method) -----------------------------------
+
+-> eg in PojoToString Package
+
+-------------------------- Inheritance ----------------------------------------------------
+
+-> inheritance is creating a child class or sub class that inherits the methods and properties of the parent class
+
+eg syntax : -----------------------
+
+public class Animals{
+
+} //parent class
+
+public class Dog extends Animals{
+    public Dog(){
+        super(); // super should used to call the constructor in parent class
+    }
+
+} //child or sub class
+
+-> eg code in inheritance package.
+
+----------------------------------------------------------------------------------------------
