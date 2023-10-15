@@ -7,6 +7,8 @@ Topics:
 3) String manipulation -> eg in files
 4) StringBuilder class
 5) Composition
+6) Encapsulation
+7) Polymorphism
 
 -------------------------- this() and super() ---------------------------
 
@@ -41,5 +43,14 @@ StringBuilder newstring = new StringBulder("Hello World")
 ----------------------------------- Composition ----------------------------------------------------
 
 -> Composition is a another component of oops
+-> Composition is like inheritance but highly flexible than inheritance
 
+// need revision of this topic
 
+----------------------------------- Encapsulation ------------------------------------------------
+
+-> Encapsulation means hiding things by making them private or inaccessible
+-> it can be done by access modifiers private , public and protected
+-> in default everything is public
+-> in private -> methods and fields of parent class cannot be accessible by any other class or sub class except its own class
+-> in protected -> methods and fields of parent class can only be accessible by its sub class and its own.
