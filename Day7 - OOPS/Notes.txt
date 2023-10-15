@@ -1,0 +1,45 @@
+Section 7,8
+
+Topics:
+
+1) this and super
+2) text block (formatting text)
+3) String manipulation -> eg in files
+4) StringBuilder class
+5) Composition
+
+-------------------------- this() and super() ---------------------------
+
+-> this() is used to access or call current class variables and methods
+-> super() is used to access or call parent class variables and methods
+
+--------------------------- text block (formatting text) --------------------------------
+
+escape sequences:
+
+1) \t - to insert a tab character
+2) \n - insert a new line character
+3) \" - insert a double quote character
+4) \\ - insert a backslash character
+
+-> text blocks are created using triple quotes => """  """
+-> using textblock you can print in whatever pattern you want like ASCII arts
+
+example for text block in TextBlockExample file
+
+--------------------------- StringBuilder class ----------------------------------
+
+-> String class is immutable
+-> so java has a mutable class called StringBuilder
+
+eg syntax:
+
+StringBuilder newstring = new StringBulder("Hello World")
+
+-> String is mostly used but StringBuilder is used when you need a manipulative string
+
+----------------------------------- Composition ----------------------------------------------------
+
+-> Composition is a another component of oops
+
+
