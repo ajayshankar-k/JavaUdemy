@@ -1,0 +1,59 @@
+=> Interger.parseInt() -------------
+
+String x = "10";
+System.out.println(Interger.parseInt(x));
+
+o/p: 10 => String converted to int
+
+=> Interger.toString() -------------
+
+int x = 10;
+System.out.println(Interger.toString(x));
+
+o/p: "10" => int converted to String
+
+=> toUpperCase() ------------
+
+String name = "your name";
+System.out.println(name.toUpperCase());
+
+o/p: "YOUR NAME"
+
+=> toLowerCase() ------------
+
+String name = "YOUR NAME";
+System.out.println(name.toLowerCase());
+
+o/p: "your name"
+
+=> equals() -------------
+
+int x = 10;
+int y = 10;
+System.out.println(x.equals(y));
+
+o/p: true => its compares the data like "=="
+
+=> isEmpty() --------------
+
+String name = "";
+System.out.println(name.isEmpty())
+
+o/p: true => it is an java inbuilt function which check the data is an empty String or not
+
+=> Scanner() --------------
+
+// scanners are used to get input from the terminal
+
+import java.util.*; // import all packages including scanner
+
+Scanner variableName = new Scanner(System.in); // creating object for scanner
+x = variableName.nextLine(); // this line consume or stores the string we type in terminal
+y = variableName.nextInt(); // this line consume or stores the int we type in terminal
+
+
+
+
+
+
+

@@ -51,6 +51,5 @@ public class Arrayss {
 
         int[] arr5 = Arrays.copyOf(arr4,arr4.length); //copying a array
         System.out.println(Arrays.toString(arr5));
-
     }
 }
