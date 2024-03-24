@@ -7,7 +7,7 @@ Topics :
 3) Static vs Instances Methods
 4) POJO (toString() method)
 5) Inheritance
-6) substring method -> used to slice string eg in substring file
+6) String manupulation ->slice string using substring and etc eg in string manipulation file
 
 -------------------------- Constructor chaining ---------------------------
 
@@ -27,7 +27,9 @@ Topics :
 
 --------------------------------- Static vs Instance Methods --------------------------------------------------------
 
--> static methods are used to call a function without creating a object for a class
+-> static methods are used to call a function or variable without creating a object for a class
+
+// example in StaticAndInstanceVariable
 
 --------------------------------  POJO (toString() method) -----------------------------------
 

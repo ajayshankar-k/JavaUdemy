@@ -1,0 +1,50 @@
+Section 9
+
+Topics :
+
+1) Arrays
+2) For each loop
+3) Object array
+4) java.util.
+
+
+------------------------------------------ Arrays -----------------------------------------------------
+
+-> to declare a array syntax :
+
+datatype[] variableName;
+
+eg => int[] integerArray;
+
+-> to declare the size or length of the array:
+
+ int[] integerArray = new int[10]; // "new" keyword with "datatype[length]" is used
+
+eg code in file Arrayss -----------
+
+-------------------------------------------- for each loop ---------------------------------------------------------
+
+for (declaration : collection){
+    //code block
+}
+
+for(int i : variableName){      // for each example ; here data type of the array should be mentioned
+     System.out.println(i);
+}
+
+for i in variableName: // this code is python for "for each"
+    print(i)
+
+-------------------------------------------- Object array -------------------------------------------------------
+-> to create a creating a multi dimensional array with diff data types "Object[]" is used with "new" keyword
+
+Object[] multi = new Object[5]; // creating a multi dimensional array with diff data types
+multi[0] = "hello";
+multi[1] = 1;
+multi[2] = arr3; // another array
+
+-------------------------------------------- java.util. -------------------------------------------------------
+
+Random ran = new Random(); // generating random number
+int num = ran.nextInt(10);
+System.out.println(num);

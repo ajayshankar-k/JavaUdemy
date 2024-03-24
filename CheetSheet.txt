@@ -28,18 +28,11 @@ o/p: "your name"
 
 => equals() -------------
 
-int x = 10;
-int y = 10;
+String x = "Ajay";
+String y = "Ajay";
 System.out.println(x.equals(y));
 
-o/p: true => its compares the data like "=="
-
-=> isEmpty() --------------
-
-String name = "";
-System.out.println(name.isEmpty())
-
-o/p: true => it is an java inbuilt function which check the data is an empty String or not
+o/p: true => its compares the string data like "=="
 
 => Scanner() --------------
 
@@ -48,8 +41,75 @@ o/p: true => it is an java inbuilt function which check the data is an empty Str
 import java.util.*; // import all packages including scanner
 
 Scanner variableName = new Scanner(System.in); // creating object for scanner
-x = variableName.nextLine(); // this line consume or stores the string we type in terminal
-y = variableName.nextInt(); // this line consume or stores the int we type in terminal
+String x = variableName.nextLine(); // this line consume or stores the string we type in terminal
+int y = variableName.nextInt(); // this line consume or stores the int we type in terminal
+
+=> charAt() ---------------
+
+String x = "Hello";
+System.out.println(charAt(0));
+
+o/p: 'H'
+
+=> length() --------------
+String name = "Ajay";
+System.out.println(name.length());
+
+o/p: 4
+
+=> isEmpty() -------------
+String name = "";
+System.out.println(name.isEmpty());
+
+o/p: true => checks the string is empty or not
+
+=> isBlank() --------------
+String name = "\t   \n";
+System.out.println(name.isBlank());
+
+o/p: true => checks the string is blank or not, but not empty
+
+=> indexOf() ---------------
+String name = "Ajay";
+System.out.println(name.indexOf('j'));
+
+o/p: 1 => check the index of the given character 'j'
+
+=> lastIndexOf() -------------
+String name = "Hello world";
+System.out.println(name.indexOf('l'));
+System.out.println(name.lastIndexOf('l'));
+
+o/p: 2 => checks the index of first 'l'
+o/p: 9 => checks the index of last 'l'
+
+=> startsWith() ----------------
+String x = "Ajay shankar";
+System.out.println(x.startsWith("Ajay"));
+
+o/p: true => checks whether the string starts with the given word
+
+=> endsWith() ----------------
+String x = "Ajay shankar";
+System.out.println(x.endsWith("shankar"));
+
+o/p: true => checks whether the string ends with the given word
+
+=> contains() ----------------
+String x = "This world is cool";
+System.out.println(x.contains("world"));
+
+o/p: true => checks whether the string contains the word that is given
+
+=> contentEquals() -------------
+
+String x = "Ajay";
+String y = "Ajay";
+System.out.println(x.contentEquals(y));
+
+o/p: true => the difference between 'contentEquals()' and 'equals()' is, 'contentEquals()' can compare
+             StringBuilder's which 'equals()' method does not support
+
 
 
 
