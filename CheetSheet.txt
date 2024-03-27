@@ -110,10 +110,70 @@ System.out.println(x.contentEquals(y));
 o/p: true => the difference between 'contentEquals()' and 'equals()' is, 'contentEquals()' can compare
              StringBuilder's which 'equals()' method does not support
 
+=> substring() -------------
+String x = "hello world";
+System.out.println(x.substring(1,5))
 
+o/p: ello => this method is like slicing a string
 
+=> String.join() ------------
 
+String[] x={"apple","orange"};
+System.out.println(String.join("/",x)); // joins an array
 
+(OR)        
 
+System.out.println(String.join("/","apple","orange"));
+
+o/p: apple/orange =>joins a array or string
+
+=> concat() -----------
+
+String x = "Ajay ";
+String y = "Shankar";
+String z = x.concat(y);
+System.out.println(z);
+
+o/p: Ajay Shankar => concats a string
+
+=> replace() -------------
+
+String date = "25-03-2001";
+System.out.println(date.replace("-","/"));
+
+o/p: 25/03/2001 => replaces '-' with '/'
+
+=> replaceFirst() ---------
+
+String date = "25-03-2001";
+System.out.println(date.replaceFirst("-","/"));
+
+o/p: 25/03-2001 => replaces the first '-' with '/'
+
+=> repeat() ------------
+
+System.out.println("ABC\n".repeat(3));
+
+o/p: 
+
+ABC
+ABC
+ABC => repeats three times as given
+
+=> indent() -----------
+
+System.out.println("ABC\n".repeat(3).indent(8));
+
+o/p:
+
+    ABC
+    ABC
+    ABC => indents the output
+
+=> trim() -----------
+
+System.out.println("    Ajay shankar   ".trim());
+
+o/p: Ajay shankar => trims out empty spaces
 
 
