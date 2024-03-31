@@ -176,4 +176,11 @@ System.out.println("    Ajay shankar   ".trim());
 
 o/p: Ajay shankar => trims out empty spaces
 
+=> capacity() ----------------
+
+StringBuilder x = new StringBuilder(32);
+System.out.println("Capacity = "+x.capacity());
+
+o/p: Capacity = 32 => this function shows the capacity of a StringBuilder
+
 
